@@ -1,0 +1,13 @@
+# Build products
+SafariPiP/build/
+build/
+DerivedData/
+*.dSYM
+
+# Xcode user state (machine-specific, not meant to be shared)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# macOS
+.DS_Store

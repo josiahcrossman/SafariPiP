@@ -1,0 +1,37 @@
+{
+  "manifest_version": 3,
+  "name": "SafariPiP",
+  "version": "1.0",
+  "description": "Force any playing video into Picture-in-Picture — works on YouTube, Disney+, Netflix, and sites that try to block PiP.",
+  "icons": {
+    "48": "images/icon-48.png",
+    "96": "images/icon-96.png",
+    "128": "images/icon-128.png",
+    "256": "images/icon-256.png",
+    "512": "images/icon-512.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Picture-in-Picture (⌘⇧P)",
+    "default_icon": {
+      "48": "images/icon-48.png",
+      "96": "images/icon-96.png",
+      "128": "images/icon-128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "toggle-pip": {
+      "suggested_key": {
+        "default": "Command+Shift+P",
+        "mac": "Command+Shift+P"
+      },
+      "description": "Toggle Picture-in-Picture for the current video"
+    }
+  }
+}
