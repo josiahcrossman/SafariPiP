@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "SafariPiP",
   "version": "1.0",
-  "description": "Force any playing video into Picture-in-Picture — works on YouTube, Disney+, Netflix, and sites that try to block PiP.",
+  "description": "Force any playing video into Picture-in-Picture with a toolbar button or keyboard shortcut.",
   "icons": {
     "48": "images/icon-48.png",
     "96": "images/icon-96.png",

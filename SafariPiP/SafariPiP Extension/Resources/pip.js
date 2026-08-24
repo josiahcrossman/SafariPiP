@@ -54,7 +54,7 @@
   return { toggled: true };
 
   function enterPiP(v) {
-    // Some sites (Disney+, etc.) set this to hide/deny PiP. Clear it first.
+    // A page's video element may have this set, which suppresses PiP. Clear it first.
     try {
       v.disablePictureInPicture = false;
       v.removeAttribute("disablePictureInPicture");
